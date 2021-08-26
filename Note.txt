@@ -1,0 +1,23 @@
+-We can not know exactly the time of algorithmic because it is impacted by many things. ex:speed of computer, knowing the detail of computer or low level of this language,
+based on the memory position (cache->quick,ram->slower,hard disk -> very slow),..
+-So we have some method to figure out to solve this problem and don't care about the time but the abality of scaling up with size of data.
+
++Asymtotic Notation
+-It's mean => we will simplify it like, it just about the time will scale up with sized inputs.
+ex: with n time -> 1sec for n = 100 but  n^2 time -> 20days for n = 100 just about the scale up.
+
++Big-O Notation
+-A specific sort of asymptotic Notation
+
+    *Definition
+            f(n) = O(g(n)) (f is Big-O of g) 
+
+        if there exist constants N and c so that for all
+
+            n >= N, f(n) <= c*g(n)
+    ***** 
+    Proved by:
+    3n^2 + 5n + 2 = O(n^2) since if n >= 1
+
+    3n^2 + 5n + 2 <= 3n^2 +5n^2+2n^2 = 10n^2
+NOTE: BigO is just Asymptotic Notation
