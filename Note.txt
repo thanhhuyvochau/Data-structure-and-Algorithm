@@ -21,3 +21,16 @@ ex: with n time -> 1sec for n = 100 but  n^2 time -> 20days for n = 100 just abo
 
     3n^2 + 5n + 2 <= 3n^2 +5n^2+2n^2 = 10n^2
 NOTE: BigO is just Asymptotic Notation
+
+**REVIEW GREEDY CHOICE
+-First make Safe Move and then we remove it from initial problem and then have subproblem with same kind or same parameter ->> THIS IS GREEDY CHOICE.
+
+-Safe Move is a solution you made it, not formula. You have to prove when you think one solution is the Safe Move.
+
+-Safe Move is difference from difference problem.
+ 
++Some of Optimization Tips
+	+Assumer everything is somehow sorted.
+	+Which sort order is convenient?
+	+Greedy move can be faster after sorting?
+	
