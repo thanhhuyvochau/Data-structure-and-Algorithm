@@ -1,5 +1,6 @@
+var step = 1;
 var binarySearch = (arr, low, high, key) => {
-
+    console.log("STEP:" + step++);
     let mid = Math.floor((high + low) / 2);
     console.log("LOW(" + arr[low] + ") : " + low);
     console.log("MID(" + arr[mid] + ") : " + mid);
@@ -19,6 +20,15 @@ var binarySearch = (arr, low, high, key) => {
     }
     return index;
 }
-let arr = ["a", "b", "c", "d", "e", "f"];
-let key = "a";
+let productArr = () => {
+    let arr = [];
+    for (let i = 1; i <= 1023; i++) {
+        arr.push(i);
+    }
+    return arr;
+}
+
+let arr = productArr();
+console.log(arr);
+let key = 1024;
 console.log("INDEX FIND: " + binarySearch(arr, 0, arr.length - 1, key));
