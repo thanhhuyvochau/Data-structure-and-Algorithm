@@ -17,8 +17,9 @@ var newMultiply = (A, B, n, a, b) => {
         product[i] = "no";
     }
     if (n == 1) {
-        result
+        result[0] = A[a] * B[b];
     }
+
 
 }
 
